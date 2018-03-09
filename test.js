@@ -3,7 +3,7 @@ Object.freeze(assert);
 const SmartCalculator = require('./src/index');
 
 describe('SmartCalculator', () => {
-  /*it('1', () => {
+  it('1', () => {
     const calculator = new SmartCalculator(1);
 
     const value = calculator
@@ -80,7 +80,7 @@ describe('SmartCalculator', () => {
       .pow(1);
   
     assert.equal(value, 3);
-  });*/
+  });
   
   it('8', () => {
   
@@ -98,7 +98,7 @@ describe('SmartCalculator', () => {
   
     assert.equal(value, -9834551);
   });
-  /*
+
   it('9', () => {
   
     const calculator = new SmartCalculator(9);
@@ -4316,5 +4316,5 @@ describe('SmartCalculator', () => {
       .add(52);
   
     assert.equal(value, 66);
-  });*/
+  });
 });

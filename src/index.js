@@ -28,9 +28,7 @@ class SmartCalculator {
   }
 
   pow(number) {
-    console.log(this.str);
-    var result = eval(this.str);
-    this.str = Math.pow(result, number);
+    this.str += ' ** ' + number;
     return this;
   }
 }
